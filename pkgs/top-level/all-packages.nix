@@ -16495,6 +16495,8 @@ in
 
   yojimbo = callPackage ../development/libraries/yojimbo { };
 
+  ypbind-mt = callPackage ../misc/ypbind-mt { };
+
   yubioath-desktop = libsForQt5.callPackage ../applications/misc/yubioath-desktop { };
 
   yubico-pam = callPackage ../development/libraries/yubico-pam { };
